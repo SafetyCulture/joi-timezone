@@ -1,6 +1,6 @@
 # joi-timezone
 
-Provides a Joi rule to validate and transform deprecated IANA timezone strings
+Provides a Joi rule to validate IANA timezone strings using moment-timezone
 
 ## Usage
 
@@ -21,6 +21,19 @@ Joi.validate("Melbourne/Australia", Joi.string().timezone());
   {
     error: null,
     value: "Melbourne/Australia"
+  }
+ */
+```
+
+Results with valid timezone returning a moment object:
+```js
+Joi.validate("Melbourne/Australia", Joi.string().timezone({returnMoment: true}));
+/*
+  {
+    error: null,
+    value: {
+      ...moment object
+    }
   }
  */
 ```

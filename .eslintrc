@@ -6,5 +6,6 @@
     "comma-dangle": [2, "never"], // airbnb defaults to always require dangling commas. DO NOT WANT
     "object-curly-spacing": 0, // The default WebStorm is without spaces around curlies. SC code is like that in general.
     "new-cap": 0, // Some factory functions can be capital cased.
+    "no-underscore-dangle": 0
   }
 }
