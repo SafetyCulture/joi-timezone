@@ -2,6 +2,8 @@
 
 Provides a Joi rule to validate IANA timezone strings using moment-timezone
 
+[![Build status](https://badge.buildkite.com/813c56cccdade768f2f1759cf8cfd975385edb7918535da235.svg)](https://buildkite.com/safetyculture/joi-timezone)
+
 ## Usage
 
 ```js
