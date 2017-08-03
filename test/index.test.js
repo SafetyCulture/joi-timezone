@@ -6,7 +6,7 @@ import JoiTimezone from '../lib';
 const Joi = BaseJoi.extend(JoiTimezone);
 
 describe('string', () => {
-  describe('Timezone()', () => {
+  describe('timezone()', () => {
     it('return error for invalid timezone', () => {
       const testValue = Joi.validate('Blah', Joi.string().timezone());
       assert.isOk(testValue.error, 'should produce an error');
