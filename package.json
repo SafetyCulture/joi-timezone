@@ -33,8 +33,10 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "joi": "^10.6.0",
     "moment-timezone": "^0.5.13"
+  },
+  "peerDependencies": {
+    "joi": ">=9.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -48,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "istanbul": "^1.0.0-alpha.2",
+    "joi": "^9.0.0",
     "mocha": "^2.5.3"
   },
   "babel": {
