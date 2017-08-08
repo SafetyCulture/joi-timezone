@@ -6,6 +6,8 @@ Provides a Joi rule to validate IANA timezone strings using moment-timezone
 
 ## Usage
 
+Note: **requires** Joi version >= 9
+
 ```js
 import BaseJoi from 'joi';
 import JoiTimezone from 'joi-timezone';
