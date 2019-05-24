@@ -1,7 +1,6 @@
-import BaseJoi from 'joi';
-import {assert} from 'chai';
-
-import JoiTimezone from '../lib';
+const BaseJoi = require('@hapi/joi');
+const assert = require('chai').assert;
+const JoiTimezone = require('../lib');
 
 const Joi = BaseJoi.extend(JoiTimezone);
 
