@@ -5,6 +5,12 @@ Provides a Joi rule to validate IANA timezone strings using moment-timezone
 [![Build Status](https://travis-ci.org/SafetyCulture/joi-timezone.svg?branch=master)](https://travis-ci.org/SafetyCulture/joi-timezone)
 [![Coverage Status](https://coveralls.io/repos/github/SafetyCulture/joi-timezone/badge.svg)](https://coveralls.io/github/SafetyCulture/joi-timezone)
 
+## Unmaintained
+
+This project is no longer being maintained by SafetyCulture. You are welome to fork this project and bring new life to it.
+
+https://github.com/tjdavey/joi-tz is an active version of this project.
+
 ## Usage
 
 Note: **requires** Joi version >= 9
